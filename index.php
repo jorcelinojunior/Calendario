@@ -1,15 +1,15 @@
 <?php
 
 function linha($semana){
-    echo "<tr>";
+    echo "<tr>\n";
     for($i=0;$i < 7; $i++){
         if(isset($semana[$i])){
-            echo "<td>{$semana[$i]}</td>";
+            echo "<td>{$semana[$i]}</td>\n";
         }else{
-            echo "</td>";
+            echo "</td>\n";
         }
     }
-    echo "</tr>";
+    echo "</tr>\n";
 }
 
 function calendario(){
